@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import illustration from './images/undraw_take-out-boxes_n094.png';
+import illustration from '/images/undraw_take-out-boxes_n094.png';
 import { Button } from "@/components/ui/button"
 import { ArrowDown, ArrowRight, Recycle, Sparkles, Users } from "lucide-react"
 import FeatureCard from "@/components/feature-card"
