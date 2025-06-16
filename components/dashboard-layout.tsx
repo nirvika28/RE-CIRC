@@ -6,7 +6,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { LayoutDashboard, Recycle, Users, Calendar, Map, Settings, LogOut, Menu, X } from "lucide-react"
-import { Store, Hammer, BarChart } from "lucide-react";
+import { Store, Hammer, BarChart, Clock } from "lucide-react";
 
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -59,6 +59,11 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
       title: "Progress",
       icon: BarChart,
       href: "/dashboard/progress",
+    },
+    {
+      title: "Tracker",
+      icon: Clock,
+      href: "/dashboard/tracker",
     },
     {
       title: "Events",
