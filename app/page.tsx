@@ -6,11 +6,6 @@ import { ArrowDown, ArrowRight, Recycle, Sparkles, Users } from "lucide-react"
 import FeatureCard from "@/components/feature-card"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-import SustainabilityLevels from "../sustainability-levels"
-
-export  function Page() {
-  return <SustainabilityLevels />
-}
 
 export default function Home() {
   return (
