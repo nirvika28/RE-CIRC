@@ -8,7 +8,7 @@ import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import SustainabilityLevels from "../sustainability-levels"
 
-export default function Page() {
+export  function Page() {
   return <SustainabilityLevels />
 }
 
