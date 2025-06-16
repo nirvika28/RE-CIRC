@@ -111,7 +111,7 @@ export default function Home() {
           </div>
 
           <div className="mt-16 text-center">
-            <Link href="/join">
+            <Link href="/login">
               <Button className="bg-green-600 hover:bg-green-700 group">
                 Get Started Today
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
