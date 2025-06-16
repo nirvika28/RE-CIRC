@@ -6,6 +6,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { LayoutDashboard, Recycle, Users, Calendar, Map, Settings, LogOut, Menu, X } from "lucide-react"
+import { Hammer } from "lucide-react";
 
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -29,42 +30,51 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   const routes = [
-    {
-      title: "Dashboard",
-      icon: LayoutDashboard,
-      href: "/dashboard",
-      isActive: pathname === "/dashboard",
-    },
-    {
-      title: "Recycling",
-      icon: Recycle,
-      href: "/dashboard/recycling",
-      isActive: pathname === "/dashboard/recycling",
-    },
-    {
-      title: "Community",
-      icon: Users,
-      href: "/dashboard/community",
-      isActive: pathname === "/dashboard/community",
-    },
-    {
-      title: "Events",
-      icon: Calendar,
-      href: "/dashboard/events",
-      isActive: pathname === "/dashboard/events",
-    },
-    {
-      title: "Local Map",
-      icon: Map,
-      href: "/dashboard/map",
-      isActive: pathname === "/dashboard/map",
-    },
-    {
-      title: "Settings",
-      icon: Settings,
-      href: "/dashboard/settings",
-      isActive: pathname === "/dashboard/settings",
-    },
+  {
+    title: "Dashboard",
+    icon: LayoutDashboard,
+    href: "/dashboard",
+  },
+  {
+    title: "Recycling",
+    icon: Recycle,
+    href: "/dashboard/recycling",
+  },
+  {
+    title: "Community",
+    icon: Users,
+    href: "/dashboard/community",
+  },
+  {
+    title: "Projects",
+    icon: Hammer,
+    href: "/dashboard/projects",
+  },
+  {
+    title: "Marketplace",
+    icon: Store,
+    href: "/dashboard/marketplace",
+  },
+  {
+    title: "Progress",
+    icon: BarChart,
+    href: "/dashboard/progress",
+  },
+  {
+    title: "Events",
+    icon: Calendar,
+    href: "/dashboard/events",
+  },
+  {
+    title: "Local Map",
+    icon: Map,
+    href: "/dashboard/map",
+  },
+  {
+    title: "Settings",
+    icon: Settings,
+    href: "/dashboard/settings",
+  },
   ]
 
   return (
