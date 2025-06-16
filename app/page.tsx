@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-
+import illustration from './images/undraw_take-out-boxes_n094.png';
 import { Button } from "@/components/ui/button"
 import { ArrowDown, ArrowRight, Recycle, Sparkles, Users } from "lucide-react"
 import FeatureCard from "@/components/feature-card"
@@ -42,7 +42,7 @@ export default function Home() {
             <div className="flex items-center justify-center">
               <div className="relative h-[350px] w-[350px] md:h-[450px] md:w-[450px]">
                 <Image
-                  src="/placeholder.svg?height=450&width=450"
+                  src={illustration}
                   alt="Circular Economy Illustration"
                   fill
                   className="object-contain"
