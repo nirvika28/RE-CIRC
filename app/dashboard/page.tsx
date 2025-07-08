@@ -31,11 +31,11 @@ export default function DashboardPage() {
             <div className="flex items-center gap-2">
               <Avatar>
                 <AvatarImage src="/placeholder.svg?height=32&width=32" alt="User" />
-                <AvatarFallback>JD</AvatarFallback>
+                <AvatarFallback>Sh</AvatarFallback>
               </Avatar>
               <div className="hidden md:block">
-                <p className="text-sm font-medium">Jane Doe</p>
-                <p className="text-xs text-gray-500">Portland, OR</p>
+                <p className="text-sm font-medium">Shweta</p>
+                <p className="text-xs text-gray-500">Hebbal,BLR</p>
               </div>
             </div>
           </div>
