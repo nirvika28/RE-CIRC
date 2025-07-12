@@ -1,3 +1,5 @@
+<img width="1887" height="804" alt="Screenshot 2025-06-14 233314" src="https://github.com/user-attachments/assets/718685c1-b708-49bb-829d-a0912d1290b0" />
+
 ReCircle Project
 Motto: "Redesigning Resources, Rethinking Waste"
 
@@ -21,6 +23,7 @@ Technology-Driven Insights:
 Leverages AI and IoT to optimize waste management processes and provide actionable analytics for decision-making.
 
 Promoting Circular Systems:
+<img width="1887" height="804" alt="Screenshot 2025-06-14 233314" src="https://github.com/user-attachments/assets/f5b5db32-4683-42a4-a0b4-0f909335079f" />
 
 Encourages businesses and consumers to adopt practices that reduce reliance on raw materials and integrate recycled resources into production cycles.
 
